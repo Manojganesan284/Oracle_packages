@@ -1,0 +1,4 @@
+CREATE OR REPLACE PACKAGE my_package AS
+    PROCEDURE say_hello(p_name IN VARCHAR2);
+END my_package;
+/
